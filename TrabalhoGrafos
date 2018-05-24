@@ -1,0 +1,30 @@
+input()
+input()
+n = int(input())
+input()
+
+vetorAdjacencia=[]
+verticesAtingidos=[]#[for i in range(0,n+1): ¨Falso¨]
+funcao={}
+
+for i in range(0,n+1):
+  verticesAtingidos.append(0)
+  vetorAdjacencia.append([])
+
+try:
+  while True:
+    a = input().split(" ")
+    vetorAdjacencia[a[0]].append(int(a[1]))
+    vetorAdjacencia[int(a[1])].append(int(a[0]))
+    texto1 = a[0] + " " +a[1]
+    texto2 = a[1] + " " +a[0]
+    funcao[texto1] = a[2]
+    funcao[texto2] = a[2]
+except:
+  print(" asdf")
+
+print(funcao)
+print()
+print(vetorAdjacencia)
+print()
+print(verticesAtingidos)
