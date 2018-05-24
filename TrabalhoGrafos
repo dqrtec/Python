@@ -5,7 +5,10 @@ input()
 
 vetorAdjacencia=[]
 verticesAtingidos=[]#[for i in range(0,n+1): ¨Falso¨]
+soma = 0
 funcao={}
+heap=[]
+distancia[i for i in range(0,n+1)]
 
 for i in range(0,n+1):
   verticesAtingidos.append(0)
@@ -18,13 +21,21 @@ try:
     vetorAdjacencia[int(a[1])].append(int(a[0]))
     texto1 = a[0] + " " +a[1]
     texto2 = a[1] + " " +a[0]
-    funcao[texto1] = a[2]
-    funcao[texto2] = a[2]
+    funcao[texto1] = float( a[2] )
+    funcao[texto2] = float( a[2] )
 except:
-  print(" asdf")
+  print("")
 
-print(funcao)
-print()
-print(vetorAdjacencia)
-print()
-print(verticesAtingidos)
+o = 0
+verticesAtingidos[o]=1
+texto =´´
+for u in vetorAdjacencia[o]:
+  texto = o+ ¨ ¨+ u
+  heap.append([ funcao[texto] , [o,u] ])
+
+primeiro
+for i in range(1,n):
+  while True:
+    heap = sorted(heap)
+    primeiro = heap.pop()
+    if verticesAtingidos[primeiro[1][0]] == 0:
