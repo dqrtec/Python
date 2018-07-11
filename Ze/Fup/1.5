@@ -1,0 +1,19 @@
+def multi(a,b):
+    global s
+    if s>0:
+        print("a")
+        if abs(a)>0:
+            return multi((abs(a)-1)*(a/abs(a)),b) + b
+        else:
+            return 0
+    else:
+        print("b")
+        if abs(a)>0:
+            return -1*(abs(multi((abs(a)-1)*(a/abs(a)),b)) + b)
+        else:
+            return 0
+x=-4
+y=-5
+s=(abs(x)/x)*(abs(y)/y)
+
+print(multi(x,y))

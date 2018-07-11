@@ -1,0 +1,17 @@
+
+def A(a):
+    if a>0:
+        return A(a-1)+1
+    else:
+        return 0
+
+
+def B(b,c):
+    if b>0:
+        return B(b-1) + A(c)
+    else:
+        return 0
+
+a=1
+b=2
+B(b , a)

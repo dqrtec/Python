@@ -1,0 +1,6 @@
+updates = bot.getUpdates()
+print(updates[0].message.chat.id)
+
+id="331604290"
+
+bot.sendMesssage(text="gg izi",chat_id=id)
