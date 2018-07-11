@@ -1,3 +1,5 @@
+#Escreva um programa que determine as componentes conexas do grafo não-direcionado recebido como entrada.
+
 def entradaInicial():
   input()
   input()
