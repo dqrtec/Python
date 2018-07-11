@@ -1,3 +1,5 @@
+#Escreva um programa que determine as componentes conexas do grafo não-direcionado recebido como entrada.
+
 input("")
 input("")
 n = int(input("").split("=")[1])
