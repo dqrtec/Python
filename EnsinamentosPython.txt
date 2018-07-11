@@ -2,3 +2,4 @@ is  		<-- testa se são o mesmo objeto
 type()      <-- retorna tipo do objeto
 None		<-- nulo
 locais, globais, e built-in (internos do Python)  <--- ordem das buscas por nomes das variaveis 
+pythonlibs<https://www.lfd.uci.edu/~gohlke/pythonlibs/>  <--- baixe o arquivo e digite "pip install nome_arquivo" e conseguirá instalar qualquer biblioteca py
