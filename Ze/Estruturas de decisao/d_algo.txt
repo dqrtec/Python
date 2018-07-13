@@ -1,0 +1,21 @@
+algoritmo 
+	declare preco , n_preco  numerico
+	declare categoria texto
+	receba preco
+	
+	se preco<50
+	entao	n_preco<-preco*1.05
+	senao se preco<=100 & preco>=50
+	entao	n_preco<-preco*1.1
+	senao entao	n_preco<-preco*1.15
+	
+	se n_preco<=800
+	entao categoria<-"D"
+	senao se n_preco>800 & n_preco<=120
+	entao categoria<-"C"
+	senao se n_preco>120 & n_preco<=200
+	entao categoria<-"B"
+	senao categoria<-"A"
+	
+	escreva "o novo preco do produto é",n_preco," e a sua categoria é ", categoria
+fim_algoritmo

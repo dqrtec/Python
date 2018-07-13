@@ -1,0 +1,11 @@
+algoritmo
+	declare numero numerico
+	receba numero
+	se numero%3==0
+	entao	inicio
+			escreva "o numero ", numero," é divisivel por 3"
+			fim
+	senao	inicio
+			escreva "o numero ", numero," não é divisivel por 3"
+			fim
+fim_algoritmo

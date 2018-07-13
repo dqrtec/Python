@@ -1,0 +1,11 @@
+algoritmo
+	declare a, b, c numerico
+	receba a , b , c
+
+	se a<b+c e b<a+c e c<a+b
+	entao escreva "Esses lados podem formar um triângulo"
+
+	senao
+	entao escreva "NÃO sao capazes de formar um triangulo euclidiano"
+
+fim_algoritmo

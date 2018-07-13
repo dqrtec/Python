@@ -1,0 +1,40 @@
+ALGORITMO
+DECLARE n1, n2, escolha NUMERICOS
+
+ESCREVA "Digite o primeiro numero"
+RECEBA n1
+
+ESCREVA "Digite o segundo numero"
+RECEBA n2
+
+ESCREVA "Digite o numero que representa a operacao desejada:\n1 --- MEDIA\n2 --- DIFERENCA\n3 --- PRODUTO\n4 --- DIVISAO"
+RECEBA escolha
+
+SE escolha == 1
+ENTAO INICIO
+	  ESCREVA "A media é: ", (n1*n2)/2
+	  FIM
+SENAO SE escolha == 2
+ENTAO	 INICIO
+		 SE n1>n2
+		 ENTAO ESCREVA "Diferenca do maior é", n1-n2
+		 SENAO SE n2>n1
+		 ENTAO ESCREVA "Diferenca do maior é", n2-n1
+ 		 FIM
+SENAO SE escolha == 3
+ENTAO INICIO
+	  ESCREVA "O Produto é:", n1*n2 
+	  FIM
+SENAO SE escolha == 4
+ENTAO INICIO
+	  SE n2 == 0
+	  ENTAO	INICIO
+	  		ESCREVA "O segundo numero nao pode ser 0, digite-o novamente:"
+	  		RECEBA n2
+	  		FIM
+	  SE n2 != 0
+	  	ESCREVA "A Divisao é:", n1/n2
+	  FIM
+SENAO 
+	ESCREVA "ENTRADA INVALIDA"
+FIM_ALGORITMO

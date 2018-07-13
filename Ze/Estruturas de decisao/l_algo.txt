@@ -1,0 +1,11 @@
+algoritmo
+	declare numero1 , numero2 numerico
+	receba numero1 , numero2
+	se numero1%numero2==0
+	entao	inicio
+			escreva "o numero ",numero1," é divisivel por ",numero2
+			fim
+	senao:
+	entao	inicio
+			"Os numeros não sao divisiveis "
+fim_algoritmo

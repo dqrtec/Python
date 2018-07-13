@@ -1,0 +1,18 @@
+algoritmo
+
+	declare a, b , c , angulo1 , angulo2 , angulo3
+	receba a , b, c
+
+	se ((a<(b+c))&(b<(a+c)))&(c<(a+b))
+
+	entao	inicio
+			angulo1 <- angulo_triangulo(a,b,c)
+			angulo2 <- angulo_triangulo(b,a,c)
+			angulo3 <- angulo_triangulo(c,a,b)
+			escreva "os angulos de a , b ,c sao respectivamente ",a , " " ,b , " " ,c
+			fim
+
+	senao
+		escreva "Os lados oferecidos não sao de um triangulo"
+
+fim_algoritmo 

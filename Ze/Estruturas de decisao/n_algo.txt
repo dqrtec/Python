@@ -1,0 +1,19 @@
+algoritmo
+
+	declare a , b , c numerico
+	receba a , b , c
+	
+	se (((a+b)>c) & (a+c>b)) & (b+c>a)
+	entao	inicio
+			
+			se (((a==b)&(a==c)) | ((c==b)&(a==c))) | ((a==b)&(b==c))
+			entao	escreva" os lados sao de um triangulo equilatero"
+			senao se ((a==b)|(a==c))|(b==c)
+			entao	escreva" temos um triangulo isoceles"
+			senao	escreva" O triangulo é escaleno"
+			
+			fim
+			
+	senao	escreva " esses lados não sao capazes de construir um triangulo euclidiano "
+	
+fim_algoritmo

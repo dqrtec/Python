@@ -1,0 +1,13 @@
+ALGORITMO
+DECLARE n NUMERICO
+
+fatorial = 1
+
+ESCREVA "Digite um número para ser calculado o seu fatorial:"
+LEIA n
+
+PARA i DE 1 ATÉ N+1 FAÇA
+	fatorial = fatorial*i
+ESCREVA "O fatorial é", fatorial
+
+FIM_ALGORITMO

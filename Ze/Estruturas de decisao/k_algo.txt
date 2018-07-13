@@ -1,0 +1,11 @@
+algoritmo
+	declare n numerico
+	receba n
+
+	se  n%5 == 0
+	entao escreva "O número É divísivel por 5"
+
+	senao
+	entao escreva "seu número NÃO é divísivel por 5"	
+
+fim_algoritmo

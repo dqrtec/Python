@@ -1,0 +1,22 @@
+algoritmo
+	declare idade numerico
+	
+	se idade > 30	
+	entao escreva "Categoria = Mestre"
+
+	senao se idade >= 16
+	entao escreva "Categoria = Adulto"
+
+	senao se idade >= 11
+	entao escreva "Categoria = Juvenil"
+
+	senao se idade >= 8
+	entao escreva "Categoria = Infanto-juvenil"
+
+	senao se idade >=5
+	entao escreva "Categoria = Infantil"
+
+	senao
+	entao escreva "idade MÍNIMA de 5 anos."
+
+fim_algoritmo

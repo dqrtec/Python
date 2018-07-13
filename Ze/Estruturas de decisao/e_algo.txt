@@ -1,0 +1,14 @@
+algoritmo
+
+	declare tipo, valor, rendimento numerico
+	receba tipo , valor
+
+	se tipo == 1
+		entao rendimento = valor*0.1
+	senao se tipo == 2
+		entao rendimento = valor*0.15
+	senao
+		entao escreva "Tipo inválido"
+	
+	escreva "rendimento = ", rendimento
+fim_algoritmo

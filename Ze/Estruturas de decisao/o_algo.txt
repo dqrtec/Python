@@ -1,0 +1,31 @@
+algoritmo
+
+	declare a, b, c, angulo_a, angulo_b, angulo_c numerico
+	receba a , b ,c
+
+	se (((a > (b+c)) e (b > (a+c))) e (c > (a+b)))
+	entao escreva "Não sao lados de um triangulo."
+
+	senao	
+	entao	inicio
+			cosseno_a =(((a*a)-(b*b)-(c*c))/(-2*b*c))	
+			angulo_a = graus(cosseno_a)
+	
+			cosseno_b =	((b*b)-(a*a)-(c*c))/(-2*a*c)	
+			angulo_b = graus(cosseno_b)
+
+			cosseno_c = ((c*c)-(a*a)-(b*b))/(-2*a*c)
+			angulo_c = graus(cosseno_c)
+	
+			se angulo_a > 90 ou angulo_b > 90 ou angulo_c > 90
+			entao escreva "Triângulo Obtusângulo"
+		
+			senao se angulo_a = 90 ou angulo_b = 90 ou angulo_c = 90
+			entao escreva "Triângulo Retângulo"
+		
+			senao se angulo_a < 90 e angulo_b < 90 e angulo_c < 90
+			entao escreva "Triângulo Acutângulo"
+		
+			fim
+		
+fim_algoritmo

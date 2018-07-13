@@ -1,0 +1,20 @@
+algoritmo
+	declare a, b, c, delta, raiz1, raiz2 numerico
+	receba a, b ,c
+	delta <- ((b*b) -(4*a*c))
+
+	se delta >= 0
+	entao
+
+		inicio
+		raiz1 <- (((-b) + raiz(delta))/(2*a))
+		escreva "Primeira raiz = ",raiz1
+		raiz2 <- (((-b) - raiz(delta))/(2*a))
+		escreva "Segunda raiz = ",raiz2
+		fim
+		
+	senao
+	
+	entao escreva "Não existe raiz no conjunto dos Reais."
+
+fim_algoritmo
