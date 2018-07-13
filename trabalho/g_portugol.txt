@@ -1,0 +1,6 @@
+    algoritimo
+        declare salario_minimo , salario_funcionario , proporao_salarios numerico
+         receba salario_minimo,salario_funcionario
+        proporao_salarios <- salario_funcionario/salario_minimo
+        escreva "Ofuncionario ganha ", proporao_salarios ," vezes"
+    fim_algoritmo

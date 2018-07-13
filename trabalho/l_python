@@ -1,0 +1,9 @@
+horas_trabalhadas =float(input("Digite as horas trabalhadas"))
+salario_minimo = float(input("Digite o valor do salario minimo"))
+hora_extra=float(input("Digite as horas estras"))
+valor_normal = salario_minimo/8
+valor_extra = salario_minimo/4
+salario_bruto = horas_trabalhadas * valor_normal
+salario_extra=valor_extra*hora_extra
+salario_receber=salario_bruto + salario_extra
+print("o Salario desse funcionario é",salario_receber)

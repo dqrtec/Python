@@ -1,0 +1,31 @@
+algoritmo
+	declare coeficientes[1000] ,x[1000] ,p[1000] numerico
+			soma , n , i , j numerico
+soma<-0
+
+leia n
+para i <-0 ate(n+1)faça
+inicio
+    coeficientes[i]<- leia
+fim
+para i <-1 ate 11 faça
+inicio
+    x[i]<-leia
+fim
+
+
+para i <-0 ate 10 faça
+inicio
+    soma <- 0
+    para j <-0 ate (n+1) faça
+	inicio
+        soma<- soma+ (coeficientes[j]*(x[i]**j))
+	fim
+    p[i]<-soma
+fim
+
+para i <-0 ate 10 faça
+inicio
+    escreva "valor de x:",x[i],", valor de P[x]:",p[i])
+fim
+fim_algoritmo

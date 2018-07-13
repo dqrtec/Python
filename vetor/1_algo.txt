@@ -1,0 +1,15 @@
+algoritmo
+	declare lista[100] numerico
+			numero, cont numerico
+	cont<-1
+	para numero <-200 ate 100 faça passo -1
+	inicio
+		lista[cont]<- numero
+		cont<cont+1
+	fim
+	
+	para numero <-1 ate 100 faça 
+	inicio
+		escreva lista[numero]
+	fim
+fim_algoritmo

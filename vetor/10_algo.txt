@@ -1,0 +1,19 @@
+algoritmo
+declare	tabela[1000] numerico
+		apurado  , i , lucro , preco , quantidade numerico
+apurado <- 0
+para i <-0 ate 30 faça
+inicio
+    escreva i+1
+    leia preco
+    leia quantidade
+    lucro <- preco* quantidade
+    tabela[i]<-[preco,i,quantidade,lucro])
+fim
+para i <-0 ate 30 faça
+inicio
+    apurado<-apurado+tabela[i][3]
+fim
+escreva apurado
+fim_algoritmo
+

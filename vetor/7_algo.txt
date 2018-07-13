@@ -1,0 +1,29 @@
+algoritmo
+declare	temperaturas[] numerico
+		menor , soma , temp , maior , cont , media , dia numerico
+menor <- 0
+soma<-0
+temp<-0
+maior <- 0
+cont <- 0
+media <-0
+
+para dia <-1 ate 120 faça
+inicio
+    temp <- aleatorio(15,40)
+    soma<-soma+temp
+    temperaturas[dia]<-temp
+    se menor ==0 ou temperaturas[dia]<menor
+	entao	menor <- temperaturas[dia]
+    se temperaturas[dia]>maior
+	entao	maior <- temperaturas[dia]
+escreva maior
+escreva menor
+media <- soma/121
+escreva media
+para dia <-1 ate 120 faça
+inicio
+    se media>temperaturas[dia]
+    entao	cont<-1+cont
+escreva cont
+fim_algoritmo

@@ -1,0 +1,18 @@
+algoritmo
+declare	numeros[500] numerico
+		multiplo,cont numerico
+cont<-1
+para multiplo<-1 ate 500 faça
+    se mod(multiplo/5) == 0
+	entao
+	inicio
+        numeros[cont]<-multiplo
+		cont<-cont+1
+	fim
+
+	
+para multiplo<-1 ate cont-1 faça
+	inicio
+        escreva numeros[multiplo]
+	fim
+fim_algoritmo

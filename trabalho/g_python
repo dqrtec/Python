@@ -1,0 +1,4 @@
+salario_minimo = float(input("Digite o salrio minimo "))
+salario_funcionario = float(input("Digite o salario do funcionario "))
+proporao_salarios = salario_funcionario/salario_minimo
+print("Ofuncionario ganha ", proporao_salarios ," vezes")

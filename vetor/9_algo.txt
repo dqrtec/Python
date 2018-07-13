@@ -1,0 +1,14 @@
+algoritmo
+declare	b[1000] numerico
+		i , somatorio numerico
+para i <-0 ate 100 faça
+inicio
+    b[i]<- leia
+fim
+somatorio<-0
+para i <-0 ate 50 faça
+inicio
+    somatorio<- somatorio+ ((b[i] - b[99-i])**3)
+fim
+escreva somatorio
+fim_algoritmo

@@ -1,0 +1,6 @@
+algoritimo
+	declare base_maior , base_menor , altura , area numerico
+	leia base_maior ,  base_menor , altura
+	area <- (base_maior + base_menor)*altura / 2
+	mostre "A area desse trapezio é ",area
+fim_algoritimo

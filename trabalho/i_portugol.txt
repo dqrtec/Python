@@ -1,0 +1,12 @@
+    algoritimo
+        declare ano_nascimento , ano_atual , semanas , dias , meses , anos numerico
+        receba ano_nascimento ,ano_atual
+        anos<- ano_atual - ano_nascimento
+        meses<- anos*12
+        semanas<- anos * 52.142857143
+        dias<- anos*365
+        escreva "anos = ",anos
+        escreva "meses = ",meses
+        escreva "semanas = ",semanas
+        escreva "dias = ",dias
+    fim_algoritmo

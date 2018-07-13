@@ -1,0 +1,5 @@
+lado1=float(input("digite o primeiro lado "))
+lado2=float(input("digite o segundo lado "))
+area= (lado1*lado2)
+potencia_necessaria = area*18
+print(  "A potencia necessaria é  ",potencia_necessaria,"W")

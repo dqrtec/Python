@@ -1,0 +1,6 @@
+algoritimo
+	declare salario_fixo , venda , salario_final numerico
+	leia salario_fixo , vendas 
+	salario_final <- salario_fixo + (venda*0.04)
+	mostre "O novo salario do funcionario é ",salario_final
+fim_algoritimo

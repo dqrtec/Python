@@ -1,0 +1,39 @@
+algoritmo
+declare	cordenada[n] , raios[n] numerico
+		raio , aux_x , aux_y , x , y , n  , i numerico
+		adiciona logico
+
+adiciona <- Verdadeiro
+raio<-0
+aux_x<-0
+aux_y<-0
+leia x
+leia y
+leia n
+
+#Recebe valores dos pontos
+para i <-1 ate n faça
+inicio
+    escreva i+1,"º cordenada"
+    leia aux_x
+    leia aux_y
+    cordenada[1]<-[aux_x,aux_y]
+fim
+para i <-1 ate n faça
+inicio
+    raio<-( ((x-cordenada[i][0])**(2)) + ((y-cordenada[i][1])**2) ) ** (1/2)
+    para j <-1 ate len(raios) faça
+	inicio
+        se raios[j]==raio e adiciona==Verdadeiro
+		entao	adiciona<-Falso
+	fim
+    se adiciona==Verdadeiro
+    entao	raios[j]<-raio
+    adiciona<-Verdadeiro
+fim
+para i <-1 ate len(raios) faça
+inicio
+	escreva raios[i]
+fim
+fim_algoritmo
+

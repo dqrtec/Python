@@ -1,0 +1,3 @@
+valor_inicial = float(input("Digite o Valor do produto"))
+valor_final = valor_inicial-(valor_inicial*0.10)
+print("O novo valor do produto é ",valor_final)

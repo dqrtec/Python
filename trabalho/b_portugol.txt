@@ -1,0 +1,6 @@
+algoritimo
+	declare valor_inicial , valor_final numerico
+	leia valor_inicial 
+	valor_final <- valor_inicial-(valor_inicial*0.10)
+	mostre "O novo valor do produto é ",valor_final
+fim_algoritimo
