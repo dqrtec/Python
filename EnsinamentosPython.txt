@@ -3,3 +3,8 @@ type()      <-- retorna tipo do objeto
 None		<-- nulo
 locais, globais, e built-in (internos do Python)  <--- ordem das buscas por nomes das variaveis 
 pythonlibs<https://www.lfd.uci.edu/~gohlke/pythonlibs/>  <--- baixe o arquivo e digite "pip install nome_arquivo" e conseguirá instalar qualquer biblioteca py
+	Nome de funçaõ: tudo menusculo e com anderline : nome_da_variavel
+	nome de classe: primeira letra letra de cada nome é maiuscula : MinhaClasse
+	variavel.__class__ => diz a classe do objeto
+	id(variavel) => retorna o id do objeto
+	não existe atributos privados , porem existe uma convenção: se tiver um underline antes do nome é porque é privadp
