@@ -1,0 +1,1 @@
+no kivy as cordenadas não dadas apartir do canto inferior esquerdo.
