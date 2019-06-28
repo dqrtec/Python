@@ -1,0 +1,29 @@
+'''apt-get install libzbar0 libzbar-dev
+pip install zbarlight
+pip install pillow
+pip install pyqrcode
+pip install pypng
+'''
+# Importações
+from PIL import Image
+from os import system
+import pyqrcode
+import zbarlight
+
+# Gerar QRCode
+def qrcode(TextoEscrito, NomeArquivo):
+    qr = pyqrcode.create(TextoEscrito)
+    qr.png(NomeArquivo, scale=20)
+    return qr
+
+TextoEscrito = input("digite seu texto de qrcode : ")
+NomeArquivo = "emanuel.png"
+ArquivoQRCode = qrcode(TextoEscrito, NomeArquivo)
+
+# Ler QR Code
+NomeArquivo = "qrCode.png"
+ImagemEmPixels = Image.open(NomeArquivo)
+ImagemEmPixels.load()
+
+TextoQRCode = zbarlight.scan_codes(['qrcode'], ImagemEmPixels)
+print('Texto contido no QR Code: %s' % TextoQRCode)
