@@ -1,4 +1,0 @@
-nota1 = float(input("digite o valor da nota 1 "))
-nota2 = float(input("digite o valor da nota 2 "))
-media = (nota1*2 + nota2*3)/(5)
-print("Sua media é ",media)

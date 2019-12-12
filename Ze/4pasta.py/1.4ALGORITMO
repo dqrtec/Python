@@ -1,7 +1,0 @@
-ALGORITMO
-DECLARE n NUMERICO
-ESCREVA "Digite um número:"
-LEIA n
-PARA i <-0 ATÉ n FAÇA PASSO 1 
-	ESCREVA "2 elevado a ", i,  "é", 2**i
-FIM_ALGORITMO

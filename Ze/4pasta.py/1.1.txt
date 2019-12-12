@@ -1,6 +1,0 @@
-ALGORITMO
-cont = 0
-ENQUANTO cont < 20
-	print(2^cont)
-	cont = cont+1
-FIM_ALGORITMO

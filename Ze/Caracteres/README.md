@@ -1,2 +1,0 @@
-# carac
-cadei de caracteres

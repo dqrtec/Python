@@ -1,4 +1,0 @@
-salario_fixo = float(input("Digite o salario do funcionario "))
-venda = float(input("Digite o salario o valor das vendas "))
-salario_final = salario_fixo + (venda*0.04)
-print("O novo salario do funcionario é ",salario_final)

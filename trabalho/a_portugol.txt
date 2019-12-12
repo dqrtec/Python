@@ -1,6 +1,0 @@
-algoritimo
-	declare nota1 , nota2 , media numerico
-	leia nota1 , nota2 
-	media <- (nota1*2 + nota2*3)/(5)
-	mostre "Sua media é ",media
-fim_algoritimo

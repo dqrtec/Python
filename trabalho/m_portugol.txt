@@ -1,8 +1,0 @@
-    algoritimo
-        declare reais, marco, libra_esterlina , dolar numerico
-        receba reais
-        marco<- (reais*4.25)
-		libra_esterlina<- (reais*5.8)
-		dolar<- (reais*3.95)
-        escreva  "Essa pessoa tera ",marco,"marco alemão ou ",dolar,"dolares ou ",libra_esterlina,"libras esterlina"
-    fim_algoritmo

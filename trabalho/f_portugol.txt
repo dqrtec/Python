@@ -1,6 +1,0 @@
-algoritimo
-        declare lado , area numerico
-        receba lado
-        area <- lado*lado
-        escreva "A area do quadrado é ", area
-fim_algoritmo

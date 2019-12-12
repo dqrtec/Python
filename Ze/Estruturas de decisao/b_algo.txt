@@ -1,7 +1,0 @@
-algofitmo
-	declare salario numerico
-	receba salario
-	se salario >900
-	entao	escreva "seu salario agora é de ",(salario*1.3)
-	senao	escreva "seu salario não sofrerá alteração"
-fim_algoritmo

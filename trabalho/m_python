@@ -1,5 +1,0 @@
-reais = float(input("Digite quantos reais voce tem"))
-marco= (reais/4.25)
-libra_esterlina= (reais/5.8)
-dolar=(reais/3.95)
-print("Essa pessoa tera \n",marco,"marco alemão ou \n",dolar,"dolares ou \n",libra_esterlina,"libras esterlina")

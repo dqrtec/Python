@@ -1,6 +1,0 @@
-algoritimo
-	declare peso_kg , peso_g numerico
-	leia peso_kg 
-	peso_g <- peso_kg*1000
-	mostre "o seu peso em gramas é ",peso_g
-fim_algoritimo
