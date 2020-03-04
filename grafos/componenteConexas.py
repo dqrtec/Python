@@ -1,15 +1,16 @@
 #Escreva um programa que determine as componentes conexas do grafo não-direcionado recebido como entrada.
 
-input("")
-input("")
+#Quantidadde de aresstas
 n = int(input("").split("=")[1])
-input("")
+
 listaAdjacencia = []
 atingido = []
- 
+
+#Melhoria
+#[ [] for i in range(1,n+2)]
 for i in range(1,n+2):
   listaAdjacencia.append([])
-  atingido.append(0)
+  atingido.append(False)
 
 while True:
   try:
@@ -19,21 +20,19 @@ while True:
     listaAdjacencia[int(x2)].append(int(x1))
   except:
     break
-
  
 componenteConexa = []
 fila = []
 for i in range(1,n+1):
-  if(atingido[i] == 0):
-    atingido[i] = 1
-    #componenteConexa.append(i)
+  if(atingido[i] == False):
+    atingido[i] = True
     fila.append(i)
     while(len(fila) > 0):
       j = fila.pop()
       componenteConexa.append(j)
       for vizinho in listaAdjacencia[j]:
-        if( atingido[vizinho] == 0 ):
-          atingido[vizinho] = 1
+        if( atingido[vizinho] == False ):
+          atingido[vizinho] = True
           fila.append(vizinho)
           
     ordem = sorted(componenteConexa)
