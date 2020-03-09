@@ -2,7 +2,7 @@ import telegram
 import dolar as ut
 from telegram.ext import Updater , CommandHandler, MessageHandler, Filters
 
-my_token = "433895367:AAEJclqp2tux--VtSioA2tj1IxdZPR5Mn90"
+my_token = ""
 
 bot = telegram.Bot(token=my_token)
 
@@ -21,7 +21,7 @@ def error(bot,update,error):
 
 #
 def dolar(bot,update):
-	dolar= ut.getDolar()
+	dolar = ut.getDolar()
 	update.message.reply_text("Cotação de hoje:{}".format(dolar))
 	
 #
@@ -34,4 +34,3 @@ dp.add_error_handler(error)
 updater.start_polling()
 
 updater.idle()
-#///////////////////////////////////////
